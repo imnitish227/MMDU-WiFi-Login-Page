@@ -1,0 +1,83 @@
+body {
+  font-size: 15pt;
+  background-color: #ffe5e5;
+}
+.h_text {
+  text-align: center;
+  margin-top: 50px;
+}
+#t_1 {
+  color: #2e3ef7;
+  font-size: 17px;
+}
+
+.t_2 {
+  color: #eb2222;
+  font-size: 25px;
+}
+.box {
+  background-color: white;
+  height: 400px;
+  width: 285px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+img {
+  height: 40px;
+  width: 90px;
+  margin-top: 8px;
+}
+.input_dcl {
+  color: #3b2ef7f7;
+  text-align: center;
+  font-size: 18px;
+  margin: 30px;
+}
+.user,
+.pswd {
+  height: 28px;
+  width: 240px;
+  margin: 10px;
+  outline: none;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.btn {
+  height: 32px;
+  width: 250px;
+  margin: 15px;
+  background-color: #1b740c;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:active {
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+.my_ac {
+  color: darkgray;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 20px;
+}
+.guide {
+  color: red;
+  margin-top: -30px;
+  text-align: center;
+  font-size: 19px;
+  margin: -10px;
+}
+.login_page {
+  margin-top: 40px;
+}
+.user:hover,
+.pswd:hover {
+  border: 1px solid blue;
+}
